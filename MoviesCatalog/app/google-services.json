@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322739788112",
+    "firebase_url": "https://movie-c2489.firebaseio.com",
+    "project_id": "movie-c2489",
+    "storage_bucket": "movie-c2489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322739788112:android:0d68242e529770ba",
+        "android_client_info": {
+          "package_name": "com.example.dolby.moviescatalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322739788112-pkd9quj9o4mpcsu1kt7m5fskoresu5t4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dolby.moviescatalog",
+            "certificate_hash": "8fd934dfa32c2038b774edf159fe33d9c1f8fabb"
+          }
+        },
+        {
+          "client_id": "322739788112-i5lmntpp1ii015mbpkad2jbisrfc9lfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1xUGDrdmC3dzdETREIQeoXr556tCh8BM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322739788112-i5lmntpp1ii015mbpkad2jbisrfc9lfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

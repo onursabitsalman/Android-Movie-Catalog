@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dolby.moviescatalog.InfoActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/info_appBar" />
+
+    <EditText
+        android:id="@+id/info_title_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_above="@+id/info_topic_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/info_topic_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Topic"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_above="@+id/info_year_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/info_year_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_above="@+id/info_director_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/info_director_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Director"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="delete"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="46dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="edit"
+        android:text="EDIT"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="trailer"
+        android:text="Traıler"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About the Movie"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/info_appBar"
+        android:layout_alignLeft="@+id/info_title_content"
+        android:layout_alignStart="@+id/info_title_content"
+        android:layout_alignRight="@+id/info_title_content"
+        android:layout_alignEnd="@+id/info_title_content"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
